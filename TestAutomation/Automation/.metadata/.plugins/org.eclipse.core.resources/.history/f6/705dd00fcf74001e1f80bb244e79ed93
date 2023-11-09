@@ -1,0 +1,20 @@
+package www.sgtesting.test1;
+
+class Democ
+{
+	String s()
+	{
+		String a="Rajeev Institute of Technology ";
+		return a;
+	}
+}
+public class Qa3 {
+	public static void main(String[] args) {
+		Democ o=new Democ();
+		System.out.println();
+
+
+
+	}
+
+}

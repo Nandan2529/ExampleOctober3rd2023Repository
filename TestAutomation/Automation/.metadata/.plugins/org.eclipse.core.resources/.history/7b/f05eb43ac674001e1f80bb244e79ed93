@@ -1,0 +1,24 @@
+package www.sgtesting.test1;
+
+class Array
+{
+	int[] Array(int a[])
+	{
+		int x[]=new int[a.length];
+		int k=0;
+		for (int i=0;i<a.length;i++)
+		{
+			x[k]=a[i];
+			k++;
+		}
+		return x;
+	}
+    
+}
+public class Test9 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

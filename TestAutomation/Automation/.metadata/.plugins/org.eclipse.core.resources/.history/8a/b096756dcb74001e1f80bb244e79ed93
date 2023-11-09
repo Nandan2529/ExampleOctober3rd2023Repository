@@ -1,0 +1,18 @@
+package www.sgtesting.test1;
+
+class Democ
+{
+	String Collage(String Name[])
+	{
+	return Name;
+	}
+}
+public class Qa3 {
+	public static void main(String[] args) {
+		Demob o=new Demob();
+	int a=	o.Collage("Rajeev Institute of Technology");
+		
+
+	}
+
+}

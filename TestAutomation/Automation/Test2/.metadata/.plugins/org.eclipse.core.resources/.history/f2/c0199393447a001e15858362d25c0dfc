@@ -1,0 +1,28 @@
+package com.sgtesting.test;
+
+class Demo11
+{
+	{
+		System.out.println("Instance block no1");
+	}
+}
+class Demo12
+{
+	{
+		System.out.println("Instance block no2");
+	}
+}
+class Demo13
+{
+	{
+		System.out.println("Instance block no2");
+	}
+}
+
+public class Qa2 {
+	public static void main(String[] args) {
+		Demo11 o=new Demo11();
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.sgtesting.test;
+
+class Demo1
+{
+	void add(int a,int b)
+	{
+		Demo2.sub(20, 10);
+		System.out.println("Addition :"+(a+b));
+	}
+}
+class Demo2
+{
+	static void sub(int c, int d)
+        {
+		System.out.println("Substraction :"+(c-d));
+		}
+}
+public class Qa1 {
+	public static void main(String[] args) {
+		Demo1 o=new Demo1();
+		o.add(10, 10);
+
+	}
+
+}

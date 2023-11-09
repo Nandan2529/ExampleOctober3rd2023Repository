@@ -1,0 +1,20 @@
+package www.sgtesting.test1;
+
+class Democ
+{
+	String Name()
+	{
+		String s="Rajjev Institute of Technology ";
+		return s;
+	}
+}
+public class Qa3 {
+	public static void main(String[] args) {
+		Democ o=new Democ();
+		o.Name();
+
+
+
+	}
+
+}

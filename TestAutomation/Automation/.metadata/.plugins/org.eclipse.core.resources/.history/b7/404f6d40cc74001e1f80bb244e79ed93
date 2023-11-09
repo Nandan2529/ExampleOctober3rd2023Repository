@@ -1,0 +1,28 @@
+package www.sgtesting.test1;
+
+class Demob
+{
+	 String stringArray(String a,String b)
+		{
+			 String y=" ";
+			for (int i=0;i<;i++)
+			{
+			for (int j=a;j<;b++)
+			{
+				y=y+x;
+			}
+			}
+			return y;
+		}
+}
+public class Qa1 {
+	public static void main(String[] args) {
+		Demob o=new Demob();
+		String y[][]= {{"One","Two","Three"},{"Four","Five","Six"},{"Seven","Eight","Nine"}};
+		String a=o.stringArray(y);
+		System.out.println(a);
+
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.sgtesting.test;
+
+class Demo1
+{
+	{
+		Demo2.sub(20, 10);
+		System.out.println("Instance Block");
+	}
+}
+class Demo2
+{
+	static void sub(int c, int d)
+        {
+		System.out.println("Substraction :"+(c-d));
+		}
+}
+public class Qa1 {
+	public static void main(String[] args) {
+		Demo1 o=new Demo1();
+		
+
+	}
+
+}
